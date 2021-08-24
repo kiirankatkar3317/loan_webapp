@@ -1,0 +1,32 @@
+.footercards{
+    height: 200px;
+    background-color: saddlebrown;
+    margin: 0%;
+    padding: 0%;
+}
+
+.ui-main{
+    margin: 0%;
+    padding: 0%; 
+    height: 200px;
+    list-style: none;
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    align-content: center;
+}
+.li-main{
+    border: 1px solid green;
+    font-weight: bold;
+    height:200px ;
+    width :400px;  
+    margin: 0%;
+    padding: 0%; 
+    display: flex;
+    justify-content: center; 
+}
+
+
+

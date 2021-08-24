@@ -1,0 +1,21 @@
+.d-flex{
+    width: 350px;
+    padding: 0px 0px 10px 20px;
+    }
+    .btn{
+        /*     border: 1px solid black; */
+            color : black;
+            background-color: tan    ;
+            border:1px solid black;
+        }
+        #filter-button{
+            margin-left: 5px;
+            margin-top: 5px;
+            height: 30px;
+            width: 50px;
+        
+        }
+        svg{
+            height: 30px;
+            width: 50px;
+        }

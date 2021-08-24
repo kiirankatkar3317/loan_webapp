@@ -1,0 +1,39 @@
+.jumbotron{
+   float: left;
+   width: 75%;
+   padding-top: 30px;
+   background-color: lightblue;
+   height: 67Vh;
+  /*  border: 1px solid red; */
+}
+th{
+    text-align: center;
+    border: 1px solid black;
+}
+td{
+    text-align: center;
+    border: 4px double maroon;
+    background-color: lightgray;
+}
+#butn{
+    float: right;
+}
+.editclick{
+    text-decoration: none;
+    color: black;
+    padding: 9px;
+    margin: 20px;
+font-weight: bold;
+}
+#container{
+    background-color: lightblue;
+    height: 75Vh;
+/*     border: 1px solid blue; */
+    margin: 0%;
+}
+.bold{
+    font-weight: bolder;
+}
+a{
+    text-decoration: none;
+}

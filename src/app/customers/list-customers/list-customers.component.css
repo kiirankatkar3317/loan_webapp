@@ -1,0 +1,57 @@
+.table{
+    float: left;
+    width: 75%;
+}
+.main-content1{
+    background-color: grey;
+}
+.main-content2{
+    border: 1px solid black;
+    padding-top :30px; 
+    margin-top: 20px;
+    height: 80Vh;
+    background-color: lightblue;
+}
+th{
+    background-color:thistle;
+}
+.d-flex{
+width: 350px;
+padding: 0px 0px 10px 20px;
+}
+/* .form-control{
+    border: 1px solid black;
+} */
+.btn{
+/*     border: 1px solid black; */
+    color : black;
+    background-color: tan    ;
+    border:1px solid black;
+}
+h4{
+    font-weight: bold;
+    display: inline-block;
+    margin: 22px;
+    padding: 10px;
+}
+
+#add-button{
+    margin-bottom: 8px;
+}
+tr{
+    text-align: center;
+}
+td{
+    font-size: 16px;
+}
+svg{
+    height: 30px;
+    width: 50px;
+}
+#filter-button{
+    margin-left: 5px;
+    margin-top: 5px;
+    height: 30px;
+    width: 50px;
+
+}

@@ -1,0 +1,28 @@
+.navbar-brand{
+    border: 1px solid grey;
+    /* border-radius:10px; */
+    background-color: grey;
+    box-shadow: 2px 4px black;
+    font-size: 28px;
+    font-weight: bold;
+}
+.navbar{
+    background-color:tomato;
+}
+.dropdown-toggle{
+    color:black;
+}
+li{
+    list-style: none;
+}
+.navbar{
+    height: 80px;
+}
+.nav-link{
+    font-weight: bold;
+}
+.btn{
+    border: 2px solid black;
+    background-color: blueviolet;
+    color: white;
+}

@@ -1,0 +1,29 @@
+.customer-form{
+    border: 1px solid red;
+    float: left;
+    height: 80vh;
+width: 75%;
+background-color: grey;
+}
+.form-border{
+    margin: 30px;
+    position: relative;
+}
+.form-control{
+width : 300px;
+margin: 1px;
+}
+img{
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    bottom: 108px;
+    left : 880px;
+}
+.btn{
+    width: 80px;
+    background-color: red;
+position: absolute;
+left: 360px;
+bottom: 200px;
+}   

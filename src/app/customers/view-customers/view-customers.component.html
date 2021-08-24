@@ -1,0 +1,40 @@
+<div id="container">
+  <div id="butn" >
+    <button class="editclick"><a [routerLink]="['/customers','edit',customerDetails._id]"> EDIT </a></button>
+    <button class="editclick"><a [routerLink]="['/customers','delete',customerDetails._id]"> DELETE </a></button>
+  </div>
+  <div class="jumbotron">
+    <table class="table table-hover">
+      <thead>
+        <tr>
+          <td class="bold">CustomerId</td>
+          <td>{{customerDetails._id}}</td>
+        </tr>
+        <tr>
+          <td class="bold">FirstName</td>
+          <td>{{customerDetails.firstName}}</td>
+        </tr>
+        <tr>
+          <td class="bold">LastName</td>
+          <td>{{customerDetails.lastName}}</td>
+        </tr>
+        <tr>
+          <td class="bold">EmailAddress</td>
+          <td>{{customerDetails.emailAddress}}</td>
+        </tr>
+        <tr>
+          <td class="bold">D.O.B</td>
+          <td>{{customerDetails.dob}}</td>
+        </tr>
+        <tr>
+          <td class="bold">PhoneNumber</td>
+          <td>{{customerDetails.phoneNumber}}</td>
+        </tr>
+        <tr>
+          <td class="bold">Department</td>
+          <td>{{customerDetails.department}}</td>
+        </tr>
+      </thead>
+    </table>
+  </div>
+</div>

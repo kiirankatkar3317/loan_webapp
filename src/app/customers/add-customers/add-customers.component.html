@@ -1,0 +1,36 @@
+<div class="customer-form">
+  <form class="form-border" >
+    <div>
+      <label class="form-label" >FirstName</label>
+      <input type="text" class="form-control" name="firstName" [(ngModel)]="firstName" required>
+    </div>
+    <div>
+      <label class="form-label">LastName</label>
+      <input type="text" class="form-control" name="lastName" [(ngModel)]="lastName" required>
+    </div>
+    <div>
+      <label class="form-label">Email address</label>
+      <input type="email" class="form-control" name="emailAddress" [(ngModel)]="emailAddress" required>
+    </div>
+    <div>
+      <label class="form-label">D.O.B</label>
+      <input type="text" class="form-control" name="dob" [(ngModel)]="dob" required>
+    </div>
+    <div>
+      <label claess="form-label">PhoneNumber</label>
+      <input type="text" class="form-control" name="phoneNumber" [(ngModel)]="phoneNumber" required>
+    </div>
+    <div>
+      <label class="form-label">DepartMent</label>
+      <input type="text" class="form-control" name="department" [(ngModel)]="department" required>
+    </div>
+    <br>
+<button type="submit" class="btn btn-primary" (click)='submitForm()'>Save
+      
+    </button>
+
+  </form>
+  <div>
+    <img [src]=myimage1 alt="customers">
+  </div>
+</div>e
